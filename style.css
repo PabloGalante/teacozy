@@ -5,4 +5,110 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    padding: auto 10px;
+}
+
+#logo {
+    display: inline;
+    height: 50px;
+    margin: auto 10px;
+}
+
+#menu {
+    margin: auto 10px;
+}
+
+.menuItem, a, :visited{
+    display: inline;
+    color: seashell;
+    text-decoration: underline;
+}
+
+#wholeArticle {
+    width: 1200px;
+    margin: 70px auto 0;
+}
+
+#firstSection {
+    display: flex;
+    align-content: center;
+    height: 700px;
+    width: 100%;
+    background-image: url("./resources/images/img-mission-background.webp");
+}
+
+#missionDesc {
+    margin: auto 0;
+    width: 100%;
+    background-color: black;
+}
+
+#missionDesc h2 {
+    margin-top: 0.2em;
+}
+
+#missionDesc h4 {
+    margin-bottom: 0.2em;
+}
+
+#secondSection {
+    width: 1000px;
+    margin: auto;
+}
+
+.teaImage {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+}
+
+.teaImage img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+#thirdSection {
+    height: 500px;
+    width: 100%;
+    background-image: url("./resources/images/img-locations-background.webp");
+}
+
+#thirdSection h2{
+    position: relative;
+    top: 5%;
+}
+
+.locations {
+    height: 300px;
+    width: 300px;
+    margin: 15px 20px;
+    opacity: 1;
+    background-color: black;
+    display: inline-block;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#fourthSection {
+    height: 200px;
+}
+
+#footer {
+    margin: auto 20px;
+    text-align: left;
 }
